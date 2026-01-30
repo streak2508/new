@@ -10,6 +10,7 @@ pipeline {
         stage('Hello from VS Code') {
             steps {
                 echo 'Hello World, i have written this in VS Code'
+                echo 'Update just for fun'
         }}        
         }
     }
